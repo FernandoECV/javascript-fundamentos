@@ -5,4 +5,5 @@
 
 // console.log(2.998e8);
 
-console.log(Symbol('Programando'));
+// console.log(Symbol('Programando'));
+
