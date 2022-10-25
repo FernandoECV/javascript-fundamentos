@@ -19,21 +19,21 @@
 // console.log(texto);
 // console.log(idade);
 
-let hora = 19,
-    mensagem = '';
+// let hora = 19,
+//     mensagem = '';
 
-if (hora < 12) {
+// if (hora < 12) {
 
-    mensagem = 'Bom dia!';
+//     mensagem = 'Bom dia!';
 
-} else if (hora >= 12 && hora < 18) {
+// } else if (hora >= 12 && hora < 18) {
 
-    mensagem = 'Boa Tarde!';
+//     mensagem = 'Boa Tarde!';
 
-} else {
+// } else {
 
-    mensagem = 'Boa Noite!';
-}
+//     mensagem = 'Boa Noite!';
+// }
 
 // if(hora >= 12 && hora < 18) {
 //     mensagem = 'Boa tarde!';
@@ -43,4 +43,76 @@ if (hora < 12) {
 //     mensagem = 'Boa Noite!';
 // }
 
-console.log(mensagem);
+// console.log(mensagem);
+
+// let mes = 89,
+//     nomeMes = '';
+
+// switch(mes) {
+//     case 1: 
+//         nomeMes = 'Janeiro'; 
+//         break;
+//     case 2: 
+//         nomeMes = 'Fevereiro'; 
+//         break;
+//     case 3:
+//         nomeMes = 'Março'; 
+//         break;
+//     case 4: 
+//         nomeMes = 'Abril'; 
+//         break;
+//     case 5: 
+//         nomeMes = 'Maio'; 
+//         break;
+//     case 6: 
+//          nomeMes = 'Junho'; 
+//          break;
+//     case 7: 
+//          nomeMes = 'Julho';  
+//          break;
+//     case 8: 
+//          nomeMes = 'Agosto'; 
+//          break;
+//     case 9: 
+//          nomeMes = 'Setembro'; 
+//          break;
+//     case 10: 
+//          nomeMes = 'Outubro'; 
+//          break;
+//     case 11: 
+//          nomeMes = 'Novembro'; 
+//          break;
+//     case 12: 
+//          nomeMes = 'Dezembro'; 
+//          break;
+//     default: 
+//          nomeMes = 'Mês Inválido';
+// }
+
+// if (idade === 'infância'){
+//    console.log('Todos os Públicos') 
+// }
+
+// if (idade === 'adolescência'){
+//     console.log('+14') 
+// }
+
+// if (idade === 'adulta'){
+//     console.log('+18') 
+// }
+
+// console.log(nomeMes);
+
+let idade = 'adulta';
+
+switch (idade) {
+    case 'adulta': console.log('+18');
+        break;
+    case 'adolescência': console.log('+14');
+        break;
+        case 'infância': console.log('Todos os Públicos');
+    default:
+        break;
+}
+
+
