@@ -103,16 +103,41 @@
 
 // console.log(nomeMes);
 
-let idade = 'adulta';
+// let idade = 'adulta';
 
-switch (idade) {
-    case 'adulta': console.log('+18');
-        break;
-    case 'adolescência': console.log('+14');
-        break;
-        case 'infância': console.log('Todos os Públicos');
-    default:
-        break;
-}
+// switch (idade) {
+//     case 'adulta': console.log('+18');
+//         break;
+//     case 'adolescência': console.log('+14');
+//         break;
+//         case 'infância': console.log('Todos os Públicos');
+//     default:
+//         break;
+// }
+
+// a = 1;
+// b = 2;
+// c = 5;
+
+// if (a == b && c == a){
+//     console.log('Equilátero');
+// }
+// if (a != b && c != a){
+//    console.log('Escaleno');
+// }
+// if (a == b && c != a){
+//     console.log('Isósceles');
+// } else {
+//     console.log('Não é um triângulo');
+// }
+
+
+
+
+
+
+
+
+ 
 
 
