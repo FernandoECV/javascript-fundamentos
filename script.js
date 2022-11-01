@@ -115,22 +115,42 @@
 //         break;
 // }
 
-// a = 1;
-// b = 2;
-// c = 5;
+// let ab = a + b;
+// let ac = a + c;
+// let bc = b + c;
 
-// if (a == b && c == a){
-//     console.log('Equilátero');
-// }
-// if (a != b && c != a){
-//    console.log('Escaleno');
-// }
-// if (a == b && c != a){
-//     console.log('Isósceles');
-// } else {
+// if(ab > c && ac > b && bc > a){
+//     if(a === b && a === c){
+//         console.log('Equilátero');
+//     }else if(a !== b && a !== c && b !== c){
+//         console.log('Escaleno');
+//     }else{
+//         console.log('Isósceles');
+//     }
+// }else{
 //     console.log('Não é um triângulo');
 // }
 
+let a = 5;
+let b = 7;
+let c = 6;
+let d = 8;
+
+let media = ((a + b + c + d) / 4);
+
+if (media >= 9) {
+    conceito = 'A';
+} else if (media >= 7.5) {
+    conceito = 'B';
+} else if (media >= 6) {
+    conceito = 'C';
+} else if (media >= 4) {
+    conceito = 'D';
+} else {
+    conceito = 'F';
+}
+
+console.log(conceito);
 
 
 
@@ -138,6 +158,6 @@
 
 
 
- 
+
 
 
