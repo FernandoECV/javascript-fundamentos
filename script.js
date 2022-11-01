@@ -131,26 +131,40 @@
 //     console.log('Não é um triângulo');
 // }
 
-let a = 5;
-let b = 7;
-let c = 6;
-let d = 8;
+// let a = 5;
+// let b = 7;
+// let c = 6;
+// let d = 8;
 
-let media = ((a + b + c + d) / 4);
+// let media = ((a + b + c + d) / 4);
 
-if (media >= 9) {
-    conceito = 'A';
-} else if (media >= 7.5) {
-    conceito = 'B';
-} else if (media >= 6) {
-    conceito = 'C';
-} else if (media >= 4) {
-    conceito = 'D';
+// if (media >= 9) {
+//     conceito = 'A';
+// } else if (media >= 7.5) {
+//     conceito = 'B';
+// } else if (media >= 6) {
+//     conceito = 'C';
+// } else if (media >= 4) {
+//     conceito = 'D';
+// } else {
+//     conceito = 'F';
+// }
+
+// console.log(conceito);
+
+quantidade = 35;
+
+const preco = 5.50;
+    
+let total = quantidade * 5.50;
+
+if(quantidade > 25) {
+    totalComDesconto = (total - (0.65 * quantidade));
+    console.log(totalComDesconto);
 } else {
-    conceito = 'F';
-}
+    console.log(total);
+}   
 
-console.log(conceito);
 
 
 
