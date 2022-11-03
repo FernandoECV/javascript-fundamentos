@@ -152,18 +152,65 @@
 
 // console.log(conceito);
 
-quantidade = 35;
+// quantidade = 35;
 
-const preco = 5.50;
+// const preco = 5.50;
     
-let total = quantidade * 5.50;
+// let total = quantidade * 5.50;
 
-if(quantidade > 25) {
-    totalComDesconto = (total - (0.65 * quantidade));
-    console.log(totalComDesconto);
-} else {
-    console.log(total);
-}   
+// if(quantidade > 25) {
+//     totalComDesconto = (total - (0.65 * quantidade));
+//     console.log(totalComDesconto);
+// } else {
+//     console.log(total);
+// }   
+
+// for (let i = 1; i <= 10; i++) {
+//     for(let j = 1;  j <= 3; j++){
+//         console.log(`${i} x ${j} = ${i*j}`);
+//     }
+// }
+
+// let palavra = 'javascript';
+//     letra = 'v',
+//     total = 0,
+//     totalAProcurar = 3,
+//     indice = 0;
+
+// while(total < totalAProcurar && indice < palavra.length){
+//     if(palavra[indice] === letra){
+//         total++;
+//     }
+
+//     indice++;
+// }
+
+// if (total >= totalAProcurar){
+//     console.log('SIM');
+// }else {
+//     console.log('NÃO');
+// }
+
+// let numeroEscolhido = Math.floor((Math.random() * 9) + 1),
+//     acertou = false,
+//     palpite = '';
+
+// do{
+//     palpite = prompt('Qual o seu número? ', 0);
+//     if(parseInt(palpite) === numeroEscolhido){
+//         acertou = true;
+//     }
+
+// }while(palpite !== '' && parseInt(palpite) !== numeroEscolhido);
+
+// if(acertou){
+//     console.log('Vitória');
+// }else {
+//     console.log('Não foi dessa vez');
+// }
+
+
+
 
 
 
