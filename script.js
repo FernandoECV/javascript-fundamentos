@@ -155,7 +155,7 @@
 // quantidade = 35;
 
 // const preco = 5.50;
-    
+
 // let total = quantidade * 5.50;
 
 // if(quantidade > 25) {
@@ -208,6 +208,35 @@
 // }else {
 //     console.log('Não foi dessa vez');
 // }
+
+// for (let i = 0; i < i <= 10; i++) {
+//     if (i === 5) {
+//         break;
+//     }
+
+//     console.log(i);
+// }
+
+// let numero = 2;
+
+// for (let i = 1; i <= 10; i++) {
+//     console.log(`${numero} x ${i} = ${numero * i}`);
+// }
+
+// let = inicio = 3;
+// let = fim = 1;
+
+// if (inicio < fim) {
+//     for (let i = inicio; i <= fim; i++) {
+//         console.log(i);
+//     }
+// } else {
+//     for (let i = inicio; i >= fim; i--) {
+//         console.log(i);
+//     }
+
+// }
+
 
 
 
